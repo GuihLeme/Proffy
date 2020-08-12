@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    background-color: var(--color-primary);
+    background-image: url(/images/success-background.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.landing-success {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+
+.landing-success h2 {
+    color: var(--color-title-in-primary);
+    font: 700 5.4rem Archivo;
+    line-height: 4.2rem;
+    margin-top: 3.2rem;
+}
+
+.landing-success p {
+    color: var(--color-text-in-primary);
+    font: 400 1.6rem Poppins;
+    line-height: 2.6rem;
+    margin-top: 2.8rem;
+}
+
+.landing-success button {
+    width: 18rem;
+    height: 5.6rem;
+    background: var(--color-secondary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 400 1.6rem Archivo;
+    text-decoration: none;
+    transition: 0.2s;
+    margin-top: 6.4rem;
+}
+
+.landing-success button:hover {
+    background: var(--color-secondary-dark);
+}
